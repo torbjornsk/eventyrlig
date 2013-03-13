@@ -11,7 +11,7 @@ var RestView = function() {
 	};
 	
 	this.render = function() {
-		this.el.html(RestView.template());
+		this.el.html(RestView.template({people: this.people}));
 		return this;
 	}
 	
