@@ -33,12 +33,16 @@
 		<a href='#' class="button header-button header-button-left">Back</a>
 		<h1>RestTest</h1>
 	</div>
+	<h2>Siste 10 tweets med "Mesan"</h2>
+	<ul class="tweet-list">loading...</ul>
+</script>
 
-	<ul class="people_list">
-  		{{#each people}}
-  		<li>{{this}}</li>
+<script id="rest-li-tpl" type="text/x-handlebars-template">
+  		{{#each tweet.results}}
+  		<li>
+			<p><b>Fra:</b> {{this.from_user}} - <b>Tekst:</b> {{this.text}}</p>
+		</li>
   		{{/each}}
-	</ul>
 </script>
 
 
