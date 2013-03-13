@@ -5,7 +5,7 @@
  * Time: 16:50
  * To change this template use File | Settings | File Templates.
  */
-var HomeView = function(store) {
+var HomeView = function() {
 
   this.render = function() {
     this.el.html(HomeView.template());
