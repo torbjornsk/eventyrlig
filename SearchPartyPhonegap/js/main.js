@@ -28,16 +28,36 @@ var app = {
         $(event.target).removeClass('tappable-active');
       });
     }
-
+    //Event listener som lytter på URL endringer
+    //Kaller route() ved hver endring
     $(window).on('hashchange', $.proxy(this.route, this));
   },
 
   initialize: function() {
     var self = this;
+    //routes
+    this.cameraUrl = /^#camera/;
+    this.restUrl = /^#rest/;
+    
+    this.mainTpl = Handlebars.compile($("#index-tpl").html());
+    
     self.registerEvents();
-    $('body').html(new HomeView().render().el);
-    //$('body').html(new RestView().render().el);
-  }
+    self.route();
+  },
+  
+  route: function() {
+	    var hash = window.location.hash;
+	    if (!hash) {
+	    	$('body').html(this.mainTpl);
+	        return;
+	    }
+
+	    if (hash.match(app.restUrl)) {
+	    	$('body').html(new RestView().render().el);
+	    }else {
+	    	$('body').html(new HomeView().render().el);
+	    }
+	}
 };
 
 app.initialize();
