@@ -10,7 +10,17 @@ var RestView = function() {
 		this.el = $('<div/>');
 	};
 	
+	this.getTweets = function() {
+	    var twurl = "http://search.twitter.com/search.json?q=mesan&rpp=1";
+	    
+	    $.getJSON(twurl, function(data){
+	    	alert(data);
+	        //$("#tmpl-tweets").tmpl(data.results).appendTo("#tweets");
+	    });
+	}
+	
 	this.render = function() {
+		this.getTweets();
 		this.el.html(RestView.template({people: this.people}));
 		return this;
 	}
