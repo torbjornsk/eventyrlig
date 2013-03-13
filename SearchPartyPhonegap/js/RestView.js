@@ -1,9 +1,9 @@
 var RestView = function() {
 
-	this.people: ["Yehuda Katz",
-			      "Alan Johnson",
-			      "Charles Jolley"
-			     ]
+	this.people = ["Yehuda Katz",
+			       "Alan Johnson",
+			       "Charles Jolley"
+			      ]
 	
 	this.initialize = function() {
 		// Define a div wrapper for the view. The div wrapper is used to attach events.
