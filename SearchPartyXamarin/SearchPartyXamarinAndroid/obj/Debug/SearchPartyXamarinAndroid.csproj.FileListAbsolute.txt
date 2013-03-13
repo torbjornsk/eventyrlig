@@ -1,0 +1,14 @@
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\bin\Debug\SearchPartyXamarinAndroid.dll
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\bin\Debug\SearchPartyXamarinAndroid.pdb
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\bin\Debug\SearchPartyXamarinAndroid.dll.mdb
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\bin\Debug\SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\bin\Debug\SearchPartyXamarinAndroid.SearchPartyXamarinAndroid-Signed.apk
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\SearchPartyXamarinAndroid.dll
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\SearchPartyXamarinAndroid.pdb
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\android\bin\SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\res\layout\main.xml
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\res\values\strings.xml
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\res\drawable\icon.png
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\R.cs.flag
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\uploadflags.txt
+C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\obj\Debug\res\layout\searchmap.xml

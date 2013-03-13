@@ -1,1 +1,2 @@
 SearchPartyXamarinAndroid.Activity1;searchpartyxamarinandroid.Activity1
+SearchPartyXamarinAndroid.SearchMapActivity;searchpartyxamarinandroid.SearchMapActivity

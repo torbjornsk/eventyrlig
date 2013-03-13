@@ -7,10 +7,12 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+
 namespace SearchPartyXamarinAndroid
 {
 	[Activity (Label = "SearchPartyXamarinAndroid", MainLauncher = true)]
 	public class Activity1 : Activity
+
 	{
 		int count = 1;
 
@@ -19,15 +21,15 @@ namespace SearchPartyXamarinAndroid
 			base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+			SetContentView (Resource.Layout.SearchMap);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
+			//Button button = FindViewById<Button> (Resource.Id.myButton);
 
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
+			//button.Click += delegate {
+			//	button.Text = string.Format ("{0} clicks!", count++);
+			//};
 
 		}
 	}
