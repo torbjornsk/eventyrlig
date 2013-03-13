@@ -43,6 +43,14 @@ var HomeView = function() {
     return false;
   };
 
+  onPhotoURISuccess = function(imageURI) {
+          var smallImage = document.getElementById('bilde');
+          smallImage.style.display = 'block';
+
+          // Show the captured photo.
+          smallImage.src = imageURI;
+      }
+
   this.initialize();
 
 }
