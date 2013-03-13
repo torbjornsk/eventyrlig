@@ -35,7 +35,8 @@ var app = {
   initialize: function() {
     var self = this;
     self.registerEvents();
-    $('body').html(new HomeView().render().el);
+ //   $('body').html(new HomeView().render().el);
+    $('body').html(new RestView().render().el);
   }
 };
 
