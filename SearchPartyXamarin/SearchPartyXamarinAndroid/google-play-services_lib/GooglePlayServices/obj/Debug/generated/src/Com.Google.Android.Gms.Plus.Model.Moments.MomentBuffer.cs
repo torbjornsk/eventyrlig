@@ -43,12 +43,12 @@ namespace Com.Google.Android.Gms.Plus.Model.Moments {
 
 		static IntPtr id_get_I;
 		[Register ("get", "(I)Lcom/google/android/gms/plus/model/moments/Moment;", "")]
-		public override global::Com.Google.Android.Gms.Plus.Model.Moments.IMoment Get (int p0)
+
+ 		public override global::Com.Google.Android.Gms.Plus.Model.Moments.IMoment Get (int p0)
 		{
 			if (id_get_I == IntPtr.Zero)
 				id_get_I = JNIEnv.GetMethodID (class_ref, "get", "(I)Lcom/google/android/gms/plus/model/moments/Moment;");
 			return global::Java.Lang.Object.GetObject<global::Com.Google.Android.Gms.Plus.Model.Moments.IMoment> (JNIEnv.CallObjectMethod  (Handle, id_get_I, new JValue (p0)), JniHandleOwnership.TransferLocalRef);
 		}
-
 	}
 }
