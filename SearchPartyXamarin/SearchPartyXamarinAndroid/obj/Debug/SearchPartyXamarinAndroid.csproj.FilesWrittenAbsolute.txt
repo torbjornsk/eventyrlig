@@ -10,3 +10,16 @@
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/android/bin/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/main.xml
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/values/strings.xml
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable/icon.png
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/R.cs.flag
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid-Signed.apk
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/camera.xml

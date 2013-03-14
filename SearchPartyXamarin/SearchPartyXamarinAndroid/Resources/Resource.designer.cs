@@ -51,13 +51,25 @@ namespace SearchPartyXamarinAndroid
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int linearLayout1 = 2131034112;
+			public const int cameraLayout = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int imageView1 = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int mainLayout = 2131034116;
 			
 			// aapt resource value: 0x7f050002
 			public const int map = 2131034114;
 			
 			// aapt resource value: 0x7f050001
-			public const int myButton = 2131034113;
+			public const int myActivityButton = 2131034113;
+			
+			// aapt resource value: 0x7f050005
+			public const int myButton = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int myCameraButton = 2131034114;
 			
 			private Id()
 			{
@@ -68,7 +80,10 @@ namespace SearchPartyXamarinAndroid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Camera = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030001
 			public const int SearchMap = 2130903041;
@@ -84,8 +99,17 @@ namespace SearchPartyXamarinAndroid
 			// aapt resource value: 0x7f040001
 			public const int app_name = 2130968577;
 			
+			// aapt resource value: 0x7f040003
+			public const int changeActivity = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int closeActivity = 2130968580;
+			
 			// aapt resource value: 0x7f040000
 			public const int hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int openCamera = 2130968578;
 			
 			private String()
 			{

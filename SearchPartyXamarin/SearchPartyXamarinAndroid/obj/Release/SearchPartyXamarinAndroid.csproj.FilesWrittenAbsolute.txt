@@ -1,0 +1,10 @@
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Release/SearchPartyXamarinAndroid.dll
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Release/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/android/bin/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/res/layout/main.xml
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/res/values/strings.xml
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/res/drawable/icon.png
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/R.cs.flag
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Release/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid-Signed.apk
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/uploadflags.txt
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Release/SearchPartyXamarinAndroid.dll

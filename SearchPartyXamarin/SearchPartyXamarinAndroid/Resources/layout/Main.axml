@@ -3,10 +3,15 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:id="@+id/linearLayout1">
+    android:id="@+id/mainLayout">
     <Button
         android:id="@+id/myButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
+    <Button
+        android:id="@+id/myActivityButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changeActivity" />
 </LinearLayout>

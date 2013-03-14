@@ -4,13 +4,14 @@
   <application android:label="SearchPartyXamarinAndroid" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
     <uses-library android:name="com.google.android.maps" />
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDljelLe49SgKHq_OPz47l78aqqqoI71kY" />
-    <activity android:label="SearchPartyXamarinAndroid" android:name="searchpartyxamarinandroid.Activity1">
+    <activity android:label="SearchPartyXamarinAndroid" android:name="searchpartyxamarinandroid.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
     <activity android:label="SearchMapActivity" android:name="searchpartyxamarinandroid.SearchMapActivity" />
+    <activity android:label="CameraActivity" android:name="searchpartyxamarinandroid.CameraActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
@@ -20,6 +21,8 @@
     </receiver>
   </application>
   <permission android:name="no.mesan.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permisskon.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

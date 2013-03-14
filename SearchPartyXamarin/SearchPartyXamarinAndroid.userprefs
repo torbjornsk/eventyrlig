@@ -1,17 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SearchPartyXamarinAndroid\google-play-services_lib\GooglePlayServices\obj\Debug\generated\src\Com.Google.Android.Gms.Maps.Model.CameraPositionCreator.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SearchPartyXamarinAndroid\MainActivity.cs" Line="1" Column="1" />
-      <File FileName="SearchPartyXamarinAndroid\Properties\AndroidManifest.xml" Line="6" Column="118" />
-      <File FileName="SearchPartyXamarinAndroid\SearchMapActivity.cs" Line="24" Column="4" />
-      <File FileName="SearchPartyXamarinAndroid\google-play-services_lib\project.properties" Line="15" Column="21" />
-      <File FileName="SearchPartyXamarinAndroid\google-play-services_lib\GooglePlayServices\obj\Debug\generated\src\Com.Google.Android.Gms.Maps.Model.CameraPositionCreator.cs" Line="7" Column="46" />
+      <File FileName="SearchPartyXamarinAndroid/MainActivity.cs" Line="22" Column="17" />
+      <File FileName="SearchPartyXamarinAndroid/Resources/values/Strings.xml" Line="7" Column="36" />
+      <File FileName="SearchPartyXamarinAndroid/CameraActivity.cs" Line="36" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SearchPartyXamarinAndroid AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.SearchPartyXamarinAndroid AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Release="emulator-5554" />
 </Properties>

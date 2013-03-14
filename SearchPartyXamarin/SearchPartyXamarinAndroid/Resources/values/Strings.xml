@@ -2,4 +2,7 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">SearchPartyXamarinAndroid</string>
+	<string name="openCamera">Open Camera</string>
+	<string name="changeActivity">Change Activity</string>
+	<string name="closeActivity">Close Activity</string>
 </resources>
