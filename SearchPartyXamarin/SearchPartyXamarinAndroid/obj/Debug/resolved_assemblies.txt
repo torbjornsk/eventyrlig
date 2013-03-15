@@ -1,1 +1,1 @@
-/Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
