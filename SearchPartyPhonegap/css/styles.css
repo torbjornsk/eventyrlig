@@ -193,3 +193,8 @@ li>a.tappable-active {
 .tweet-list img{
 	margin-right: 10px;
 }
+
+.bilde {
+  height: 400px;
+  width: 600px;
+}
