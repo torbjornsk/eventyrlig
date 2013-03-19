@@ -16,7 +16,7 @@ var HomeView = function() {
     // Define a div wrapper for the view. The div wrapper is used to attach events.
     this.el = $('<div/>');
     this.el.on('click', '#taBilde', this.taBilde);
-    this.el.on('click', '#lagreBilde', this.lagreBilde())
+    this.el.on('click', '#lagreBilde', this.lagreBilde)
   };
 
   this.taBilde = function() {
