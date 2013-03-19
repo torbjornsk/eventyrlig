@@ -22,7 +22,7 @@ var HomeView = function() {
 
     event.preventDefault();
     if (!navigator.camera) {
-      app.showAlert("Camera API not supported", "Error");
+      app.showAlert("Du ha'kke kamera din gjøk!", "Error");
       return;
     }
     var options =   {   quality: 50,
