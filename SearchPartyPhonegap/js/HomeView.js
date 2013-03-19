@@ -34,7 +34,7 @@ var HomeView = function() {
 
     navigator.camera.getPicture(
         function(imageData) {
-          this.bilde = bilde;
+          this.bilde = imageData;
           $('.bilde', this.el).attr('src', "data:image/jpeg;base64," + imageData);
         },
         function() {
