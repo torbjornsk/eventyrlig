@@ -38,13 +38,14 @@ var app = {
     //routes
     this.cameraUrl = /^#camera/;
     this.restUrl = /^#rest/;
-    
+
     this.mainTpl = Handlebars.compile($("#index-tpl").html());
-    
+    this.storage = new WebSqlStore();
+
     self.registerEvents();
     self.route();
   },
-  
+
   route: function() {
 	    var hash = window.location.hash;
 	    if (!hash) {
@@ -58,6 +59,7 @@ var app = {
 	    	$('body').html(new HomeView().render().el);
 	    }
 	}
+
 };
 
 app.initialize();

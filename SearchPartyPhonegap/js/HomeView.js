@@ -15,7 +15,8 @@ var HomeView = function() {
   this.initialize = function() {
     // Define a div wrapper for the view. The div wrapper is used to attach events.
     this.el = $('<div/>');
-    this.el.on('click', '.button', this.taBilde);
+    this.el.on('click', '#taBilde', this.taBilde);
+    this.el.on('click', '#lagreBilde', this.lagreBilde())
   };
 
   this.taBilde = function() {
@@ -33,6 +34,7 @@ var HomeView = function() {
 
     navigator.camera.getPicture(
         function(imageData) {
+          this.bilde = bilde;
           $('.bilde', this.el).attr('src', "data:image/jpeg;base64," + imageData);
         },
         function() {
@@ -43,13 +45,13 @@ var HomeView = function() {
     return false;
   };
 
-  onPhotoURISuccess = function(imageURI) {
-          var smallImage = document.getElementById('bilde');
-          smallImage.style.display = 'block';
-
-          // Show the captured photo.
-          smallImage.src = imageURI;
-      }
+  this.lagreBilde = function() {
+    if (this.bilde == null) {
+      app.showAlert('Du har ikke tatt noe bilde din gjøk!', 'Koko');
+    } else {
+      app.storage.lagreBilde();
+    }
+  };
 
   this.initialize();
 
