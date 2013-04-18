@@ -50,7 +50,9 @@ var HomeView = function() {
     if (this.bilde == null) {
       app.showAlert('Du har ikke tatt noe bilde din gjøk!', 'Koko');
     } else {
-      app.storage.lagreBilde();
+      app.storage.lagreBilde(this.bilde, function (message) {
+        alert(message);
+      });
     }
   };
 

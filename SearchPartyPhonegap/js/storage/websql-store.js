@@ -48,12 +48,11 @@ var WebSqlStore = function(successCallback, errorCallback) {
     );
   };
 
-  this.lagreBilde = function(bilde) {
+  this.lagreBilde = function(bilde, callback) {
     this.db.transaction(function(tx) {
       var sql = "INSERT INTO bilde (bilde) values (:bilde)";
 
       tx.executeSql(sql, [bilde], function(tx, results) {
-        alert("goodie!");
         callback("sucess");
       });
     }, function(error) {
