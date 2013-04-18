@@ -48,7 +48,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
         );
     };
 
-    this.leggTilBilde = function(bilde) {
+    this.lagreBilde = function(bilde) {
       this.db.transaction(function(tx) {
         var sql = "INSERT INTO bilde values (:bilde)";
 
