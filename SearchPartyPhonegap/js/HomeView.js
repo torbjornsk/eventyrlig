@@ -46,6 +46,7 @@ var HomeView = function() {
   };
 
   this.lagreBilde = function() {
+    this.bilde = $('.bilde').prop('src');
     if (this.bilde == null) {
       app.showAlert('Du har ikke tatt noe bilde din gjøk!', 'Koko');
     } else {
