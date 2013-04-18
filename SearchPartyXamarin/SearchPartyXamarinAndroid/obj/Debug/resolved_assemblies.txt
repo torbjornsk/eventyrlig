@@ -1,1 +1,2 @@
-C:\Users\andersu\Documents\miniprosjekt-mobil-cross-platform\SearchPartyXamarin\SearchPartyXamarinAndroid\bin\Debug\SearchPartyXamarinAndroid.dll
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/GooglePlayServices.dll

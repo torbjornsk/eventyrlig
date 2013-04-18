@@ -21,7 +21,7 @@ namespace SearchPartyXamarinAndroid
 			base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.SearchMap);
+			SetContentView (Resource.Layout.Main);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
@@ -31,10 +31,16 @@ namespace SearchPartyXamarinAndroid
 			//	button.Text = string.Format ("{0} clicks!", count++);
 			//};
 
-			Button activityButton = FindViewById<Button> (Resource.Id.myActivityButton);
+			Button cameraButton = FindViewById<Button> (Resource.Id.myCameraButton);
+			Button mapButton = FindViewById<Button>(Resource.Id.myMapButton);
 
-			activityButton.Click += delegate {
+			cameraButton.Click += delegate {
 				var intent = new Intent (this, typeof(CameraActivity));
+				StartActivity(intent);
+			};
+
+			mapButton.Click += delegate {
+				var intent = new Intent (this, typeof(SearchMapActivity));
 				StartActivity(intent);
 			};
 		}
