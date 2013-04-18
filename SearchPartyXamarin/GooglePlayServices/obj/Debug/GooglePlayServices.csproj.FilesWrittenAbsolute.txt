@@ -1,0 +1,10 @@
+/Users/janeirik/Documents/Mesan/MapsAndLocationDemo_v2/GooglePlayServices/obj/Debug/GooglePlayServices.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/janeirik/Documents/Mesan/MapsAndLocationDemo_v2/GooglePlayServices/bin/Debug/GooglePlayServices.dll.mdb
+/Users/janeirik/Documents/Mesan/MapsAndLocationDemo_v2/GooglePlayServices/bin/Debug/GooglePlayServices.dll
+/Users/janeirik/Documents/Mesan/MapsAndLocationDemo_v2/GooglePlayServices/obj/Debug/GooglePlayServices.dll
+/Users/janeirik/Documents/Mesan/MapsAndLocationDemo_v2/GooglePlayServices/obj/Debug/GooglePlayServices.dll.mdb
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/GooglePlayServices/obj/Debug/GooglePlayServices.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/GooglePlayServices/bin/Debug/GooglePlayServices.dll.mdb
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/GooglePlayServices/bin/Debug/GooglePlayServices.dll
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/GooglePlayServices/obj/Debug/GooglePlayServices.dll
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/GooglePlayServices/obj/Debug/GooglePlayServices.dll.mdb
