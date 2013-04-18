@@ -55,7 +55,7 @@ var app = {
 
 	    if (hash.match(app.restUrl)) {
 	    	$('body').html(new RestView().render().el);
-	    }else {
+	    } else {
 	    	$('body').html(new HomeView().render().el);
 	    }
 	}

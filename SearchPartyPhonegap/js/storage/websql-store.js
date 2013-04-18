@@ -53,6 +53,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
       var sql = "INSERT INTO bilde (bilde) values (:bilde)";
 
       tx.executeSql(sql, [bilde], function(tx, results) {
+        alert("goodie!");
         callback("sucess");
       });
     }, function(error) {
