@@ -50,7 +50,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
 
   this.lagreBilde = function(bilde) {
     this.db.transaction(function(tx) {
-      var sql = "INSERT INTO bilde values (:bilde)";
+      var sql = "INSERT INTO bilde (bilde) values (:bilde)";
 
       tx.executeSql(sql, [bilde], function(tx, results) {
         callback("sucess");
