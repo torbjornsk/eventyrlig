@@ -55,7 +55,6 @@ var HomeView = function() {
   };
 
   this.initialize();
-
 }
 
 HomeView.template = Handlebars.compile($("#home-tpl").html());
