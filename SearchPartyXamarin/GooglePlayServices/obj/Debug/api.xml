@@ -360,8 +360,6 @@
 <constructor deprecated="not deprecated" final="false" name="SignInButton" static="false" type="com.google.android.gms.common.SignInButton" visibility="public">
 <parameter name="p0" type="android.content.Context">
 </parameter>
-<parameter name="p1" type="android.util.AttributeSet">
-</parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="SignInButton" static="false" type="com.google.android.gms.common.SignInButton" visibility="public">
 <parameter name="p0" type="android.content.Context">
@@ -373,6 +371,8 @@
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="SignInButton" static="false" type="com.google.android.gms.common.SignInButton" visibility="public">
 <parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
@@ -1373,6 +1373,8 @@
 <implements name="com.google.android.gms.plus.model.people.Person" name-generic-aware="com.google.android.gms.plus.model.people.Person">
 </implements>
 <constructor deprecated="not deprecated" final="false" name="af" static="false" type="com.google.android.gms.internal.af" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="af" static="false" type="com.google.android.gms.internal.af" visibility="public">
 <parameter name="p0" type="java.lang.String">
 </parameter>
 <parameter name="p1" type="java.lang.String">
@@ -1383,8 +1385,6 @@
 </parameter>
 <parameter name="p4" type="java.lang.String">
 </parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="af" static="false" type="com.google.android.gms.internal.af" visibility="public">
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="bt" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
 </method>
@@ -1975,11 +1975,11 @@
 <constructor deprecated="not deprecated" final="false" name="ag" static="false" type="com.google.android.gms.internal.ag" visibility="public">
 <parameter name="p0" type="android.content.Context">
 </parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="ag" static="false" type="com.google.android.gms.internal.ag" visibility="public">
 <parameter name="p0" type="android.content.Context">
-</parameter>
-<parameter name="p1" type="android.util.AttributeSet">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="aF" native="false" return="void" static="false" synchronized="false" visibility="protected">
@@ -2277,11 +2277,17 @@
 </parameter>
 <parameter name="p2" type="java.lang.String">
 </parameter>
-<parameter name="p3" type="com.google.android.gms.common.GooglePlayServicesClient.ConnectionCallbacks">
+<parameter name="p3" type="java.lang.String">
 </parameter>
-<parameter name="p4" type="com.google.android.gms.common.GooglePlayServicesClient.OnConnectionFailedListener">
+<parameter name="p4" type="com.google.android.gms.common.GooglePlayServicesClient.ConnectionCallbacks">
 </parameter>
-<parameter name="p5" type="java.lang.String...">
+<parameter name="p5" type="com.google.android.gms.common.GooglePlayServicesClient.OnConnectionFailedListener">
+</parameter>
+<parameter name="p6" type="java.lang.String[]">
+</parameter>
+<parameter name="p7" type="java.lang.String[]">
+</parameter>
+<parameter name="p8" type="java.lang.String...">
 </parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="ai" static="false" type="com.google.android.gms.internal.ai" visibility="public">
@@ -2313,17 +2319,11 @@
 </parameter>
 <parameter name="p2" type="java.lang.String">
 </parameter>
-<parameter name="p3" type="java.lang.String">
+<parameter name="p3" type="com.google.android.gms.common.GooglePlayServicesClient.ConnectionCallbacks">
 </parameter>
-<parameter name="p4" type="com.google.android.gms.common.GooglePlayServicesClient.ConnectionCallbacks">
+<parameter name="p4" type="com.google.android.gms.common.GooglePlayServicesClient.OnConnectionFailedListener">
 </parameter>
-<parameter name="p5" type="com.google.android.gms.common.GooglePlayServicesClient.OnConnectionFailedListener">
-</parameter>
-<parameter name="p6" type="java.lang.String[]">
-</parameter>
-<parameter name="p7" type="java.lang.String[]">
-</parameter>
-<parameter name="p8" type="java.lang.String...">
+<parameter name="p5" type="java.lang.String...">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="H" native="false" return="com.google.android.gms.internal.bc" static="false" synchronized="false" visibility="protected">
@@ -4721,6 +4721,8 @@
 <implements name="com.google.android.gms.plus.model.moments.Moment" name-generic-aware="com.google.android.gms.plus.model.moments.Moment">
 </implements>
 <constructor deprecated="not deprecated" final="false" name="bn" static="false" type="com.google.android.gms.internal.bn" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="bn" static="false" type="com.google.android.gms.internal.bn" visibility="public">
 <parameter name="p0" type="java.util.Set&lt;java.lang.Integer&gt;">
 </parameter>
 <parameter name="p1" type="java.lang.String">
@@ -4733,8 +4735,6 @@
 </parameter>
 <parameter name="p5" type="java.lang.String">
 </parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="bn" static="false" type="com.google.android.gms.internal.bn" visibility="public">
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="at" native="false" return="com.google.android.gms.internal.bn" static="false" synchronized="false" visibility="public">
 </method>
@@ -7727,11 +7727,7 @@
 <constructor deprecated="not deprecated" final="false" name="MapView" static="false" type="com.google.android.gms.maps.MapView" visibility="public">
 <parameter name="p0" type="android.content.Context">
 </parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="MapView" static="false" type="com.google.android.gms.maps.MapView" visibility="public">
-<parameter name="p0" type="android.content.Context">
-</parameter>
-<parameter name="p1" type="android.util.AttributeSet">
+<parameter name="p1" type="com.google.android.gms.maps.GoogleMapOptions">
 </parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="MapView" static="false" type="com.google.android.gms.maps.MapView" visibility="public">
@@ -7745,7 +7741,11 @@
 <constructor deprecated="not deprecated" final="false" name="MapView" static="false" type="com.google.android.gms.maps.MapView" visibility="public">
 <parameter name="p0" type="android.content.Context">
 </parameter>
-<parameter name="p1" type="com.google.android.gms.maps.GoogleMapOptions">
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="MapView" static="false" type="com.google.android.gms.maps.MapView" visibility="public">
+<parameter name="p0" type="android.content.Context">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="true" name="getMap" native="false" return="com.google.android.gms.maps.GoogleMap" static="false" synchronized="false" visibility="public">
@@ -10788,11 +10788,11 @@
 <constructor deprecated="not deprecated" final="false" name="PlusOneButton" static="false" type="com.google.android.gms.plus.PlusOneButton" visibility="public">
 <parameter name="p0" type="android.content.Context">
 </parameter>
-<parameter name="p1" type="android.util.AttributeSet">
-</parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="PlusOneButton" static="false" type="com.google.android.gms.plus.PlusOneButton" visibility="public">
 <parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="initialize" native="false" return="void" static="false" synchronized="false" visibility="public">
@@ -10906,10 +10906,16 @@
 </class>
 <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PlusShare.Builder" static="true" visibility="public">
 <constructor deprecated="not deprecated" final="false" name="PlusShare.Builder" static="false" type="com.google.android.gms.plus.PlusShare.Builder" visibility="public">
+<parameter name="p0" type="android.app.Activity">
+</parameter>
+<parameter name="p1" type="com.google.android.gms.plus.PlusClient">
+</parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="PlusShare.Builder" static="false" type="com.google.android.gms.plus.PlusShare.Builder" visibility="protected">
 <parameter name="p0" type="java.lang.String">
 </parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="PlusShare.Builder" static="false" type="com.google.android.gms.plus.PlusShare.Builder" visibility="public">
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="PlusShare.Builder" static="false" type="com.google.android.gms.plus.PlusShare.Builder" visibility="protected">
 <parameter name="p0" type="java.lang.String">
@@ -10921,12 +10927,6 @@
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="PlusShare.Builder" static="false" type="com.google.android.gms.plus.PlusShare.Builder" visibility="public">
 <parameter name="p0" type="android.app.Activity">
-</parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="PlusShare.Builder" static="false" type="com.google.android.gms.plus.PlusShare.Builder" visibility="public">
-<parameter name="p0" type="android.app.Activity">
-</parameter>
-<parameter name="p1" type="com.google.android.gms.plus.PlusClient">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="addCallToAction" native="false" return="com.google.android.gms.plus.PlusShare.Builder" static="false" synchronized="false" visibility="public">

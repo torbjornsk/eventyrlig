@@ -33,6 +33,7 @@ namespace SearchPartyXamarinAndroid
 
 			Button cameraButton = FindViewById<Button> (Resource.Id.myCameraButton);
 			Button mapButton = FindViewById<Button>(Resource.Id.myMapButton);
+			Button aksjonerButton = FindViewById<Button>(Resource.Id.aksjonerButton);
 
 			cameraButton.Click += delegate {
 				var intent = new Intent (this, typeof(CameraActivity));
@@ -41,6 +42,11 @@ namespace SearchPartyXamarinAndroid
 
 			mapButton.Click += delegate {
 				var intent = new Intent (this, typeof(SearchMapActivity));
+				StartActivity(intent);
+			};
+
+			aksjonerButton.Click += delegate {
+				var intent = new Intent(this, typeof(AksjonerActivity));
 				StartActivity(intent);
 			};
 		}

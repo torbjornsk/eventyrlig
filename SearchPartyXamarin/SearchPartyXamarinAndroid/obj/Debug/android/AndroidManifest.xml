@@ -24,6 +24,7 @@
     <activity android:label="SearchPartyXamarinAndroid" android:name="searchpartyxamarinandroid.MainActivity" />
     <activity android:label="SearchMapActivity" android:name="searchpartyxamarinandroid.SearchMapActivity" />
     <activity android:label="CameraActivity" android:name="searchpartyxamarinandroid.CameraActivity" />
+    <activity android:label="AksjonerActivity" android:name="searchpartyxamarinandroid.AksjonerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.xamarin.docs.android.mapsandlocationdemo2.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
@@ -31,7 +32,7 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.xamarin.docs.android.mapsandlocationdemo2" />
       </intent-filter>
     </receiver>
-    <activity android:label="SearchPartyXamarinAndroid" android:name="com.xamarin.docs.android.mapsandlocationdemo2.TrialSplashScreend9589eba69c847629ff8abb7056910f4" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+    <activity android:label="SearchPartyXamarinAndroid" android:name="com.xamarin.docs.android.mapsandlocationdemo2.TrialSplashScreen773f4d8190164a29b5605faae5ac4fa9" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

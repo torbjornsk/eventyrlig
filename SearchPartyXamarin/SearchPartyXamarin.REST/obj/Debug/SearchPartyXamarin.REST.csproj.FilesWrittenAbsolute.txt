@@ -1,0 +1,11 @@
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/SearchPartyXamarin.REST.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/bin/Debug/SearchPartyXamarin.REST.dll.mdb
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/bin/Debug/SearchPartyXamarin.REST.dll
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/bin/Debug/SearchPartyXamarin.REST.apk
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/android/bin/SearchPartyXamarin.REST.apk
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/res/values/strings.xml
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/R.cs.flag
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/bin/Debug/SearchPartyXamarin.REST-Signed.apk
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/uploadflags.txt
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/SearchPartyXamarin.REST.dll
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarin.REST/obj/Debug/SearchPartyXamarin.REST.dll.mdb

@@ -26,6 +26,7 @@ namespace SearchPartyXamarinAndroid
 		
 		public static void UpdateIdValues()
 		{
+			SearchPartyXamarin.REST.Resource.String.library_name = SearchPartyXamarinAndroid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -111,41 +112,50 @@ namespace SearchPartyXamarinAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040005
-			public const int cameraLayout = 2130968581;
+			// aapt resource value: 0x7f060006
+			public const int aksjonBeskrivelse = 2131099654;
 			
-			// aapt resource value: 0x7f040004
-			public const int hybrid = 2130968580;
+			// aapt resource value: 0x7f06000d
+			public const int aksjonerButton = 2131099661;
 			
-			// aapt resource value: 0x7f040008
-			public const int imageView1 = 2130968584;
+			// aapt resource value: 0x7f060005
+			public const int aksjonsListe = 2131099653;
 			
-			// aapt resource value: 0x7f040009
-			public const int mainLayout = 2130968585;
+			// aapt resource value: 0x7f060007
+			public const int cameraLayout = 2131099655;
 			
-			// aapt resource value: 0x7f04000b
-			public const int mapWithOverlay = 2130968587;
+			// aapt resource value: 0x7f060004
+			public const int hybrid = 2131099652;
 			
-			// aapt resource value: 0x7f040006
-			public const int myActivityButton = 2130968582;
+			// aapt resource value: 0x7f06000a
+			public const int imageView1 = 2131099658;
 			
-			// aapt resource value: 0x7f040007
-			public const int myCameraButton = 2130968583;
+			// aapt resource value: 0x7f06000b
+			public const int mainLayout = 2131099659;
 			
-			// aapt resource value: 0x7f04000a
-			public const int myMapButton = 2130968586;
+			// aapt resource value: 0x7f06000e
+			public const int mapWithOverlay = 2131099662;
 			
-			// aapt resource value: 0x7f040000
-			public const int none = 2130968576;
+			// aapt resource value: 0x7f060008
+			public const int myActivityButton = 2131099656;
 			
-			// aapt resource value: 0x7f040001
-			public const int normal = 2130968577;
+			// aapt resource value: 0x7f060009
+			public const int myCameraButton = 2131099657;
 			
-			// aapt resource value: 0x7f040002
-			public const int satellite = 2130968578;
+			// aapt resource value: 0x7f06000c
+			public const int myMapButton = 2131099660;
 			
-			// aapt resource value: 0x7f040003
-			public const int terrain = 2130968579;
+			// aapt resource value: 0x7f060000
+			public const int none = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int normal = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int satellite = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int terrain = 2131099651;
 			
 			static Id()
 			{
@@ -161,16 +171,22 @@ namespace SearchPartyXamarinAndroid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Camera = 2130903040;
+			public const int AksjonActivity = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int AksjonItemView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int monoandroidsplash = 2130903042;
+			public const int Camera = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int SearchMap = 2130903043;
+			public const int Main = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int monoandroidsplash = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SearchMap = 2130903045;
 			
 			static Layout()
 			{
@@ -185,71 +201,77 @@ namespace SearchPartyXamarinAndroid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050011
-			public const int app_name = 2131034129;
+			// aapt resource value: 0x7f040017
+			public const int aksjonerAktivity = 2130968599;
 			
-			// aapt resource value: 0x7f05000e
-			public const int auth_client_availability_notification_title = 2131034126;
+			// aapt resource value: 0x7f040012
+			public const int app_name = 2130968594;
 			
-			// aapt resource value: 0x7f05000f
-			public const int auth_client_play_services_err_notification_msg = 2131034127;
+			// aapt resource value: 0x7f04000f
+			public const int auth_client_availability_notification_title = 2130968591;
 			
-			// aapt resource value: 0x7f050010
-			public const int auth_client_requested_by_msg = 2131034128;
+			// aapt resource value: 0x7f040010
+			public const int auth_client_play_services_err_notification_msg = 2130968592;
 			
-			// aapt resource value: 0x7f050013
-			public const int cameraActivity = 2131034131;
+			// aapt resource value: 0x7f040011
+			public const int auth_client_requested_by_msg = 2130968593;
 			
-			// aapt resource value: 0x7f050015
-			public const int closeActivity = 2131034133;
+			// aapt resource value: 0x7f040014
+			public const int cameraActivity = 2130968596;
 			
-			// aapt resource value: 0x7f050006
-			public const int common_google_play_services_enable_button = 2131034118;
+			// aapt resource value: 0x7f040016
+			public const int closeActivity = 2130968598;
 			
-			// aapt resource value: 0x7f050005
-			public const int common_google_play_services_enable_text = 2131034117;
+			// aapt resource value: 0x7f040007
+			public const int common_google_play_services_enable_button = 2130968583;
 			
-			// aapt resource value: 0x7f050004
-			public const int common_google_play_services_enable_title = 2131034116;
+			// aapt resource value: 0x7f040006
+			public const int common_google_play_services_enable_text = 2130968582;
 			
-			// aapt resource value: 0x7f050003
-			public const int common_google_play_services_install_button = 2131034115;
+			// aapt resource value: 0x7f040005
+			public const int common_google_play_services_enable_title = 2130968581;
 			
-			// aapt resource value: 0x7f050001
-			public const int common_google_play_services_install_text_phone = 2131034113;
+			// aapt resource value: 0x7f040004
+			public const int common_google_play_services_install_button = 2130968580;
 			
-			// aapt resource value: 0x7f050002
-			public const int common_google_play_services_install_text_tablet = 2131034114;
+			// aapt resource value: 0x7f040002
+			public const int common_google_play_services_install_text_phone = 2130968578;
 			
-			// aapt resource value: 0x7f050000
-			public const int common_google_play_services_install_title = 2131034112;
+			// aapt resource value: 0x7f040003
+			public const int common_google_play_services_install_text_tablet = 2130968579;
 			
-			// aapt resource value: 0x7f050009
-			public const int common_google_play_services_unknown_issue = 2131034121;
+			// aapt resource value: 0x7f040001
+			public const int common_google_play_services_install_title = 2130968577;
 			
-			// aapt resource value: 0x7f05000b
-			public const int common_google_play_services_unsupported_text = 2131034123;
+			// aapt resource value: 0x7f04000a
+			public const int common_google_play_services_unknown_issue = 2130968586;
 			
-			// aapt resource value: 0x7f05000a
-			public const int common_google_play_services_unsupported_title = 2131034122;
+			// aapt resource value: 0x7f04000c
+			public const int common_google_play_services_unsupported_text = 2130968588;
 			
-			// aapt resource value: 0x7f05000c
-			public const int common_google_play_services_update_button = 2131034124;
+			// aapt resource value: 0x7f04000b
+			public const int common_google_play_services_unsupported_title = 2130968587;
 			
-			// aapt resource value: 0x7f050008
-			public const int common_google_play_services_update_text = 2131034120;
+			// aapt resource value: 0x7f04000d
+			public const int common_google_play_services_update_button = 2130968589;
 			
-			// aapt resource value: 0x7f050007
-			public const int common_google_play_services_update_title = 2131034119;
+			// aapt resource value: 0x7f040009
+			public const int common_google_play_services_update_text = 2130968585;
 			
-			// aapt resource value: 0x7f05000d
-			public const int common_signin_button_text_long = 2131034125;
+			// aapt resource value: 0x7f040008
+			public const int common_google_play_services_update_title = 2130968584;
 			
-			// aapt resource value: 0x7f050014
-			public const int mapActivity = 2131034132;
+			// aapt resource value: 0x7f04000e
+			public const int common_signin_button_text_long = 2130968590;
 			
-			// aapt resource value: 0x7f050012
-			public const int openCamera = 2131034130;
+			// aapt resource value: 0x7f040000
+			public const int library_name = 2130968576;
+			
+			// aapt resource value: 0x7f040015
+			public const int mapActivity = 2130968597;
+			
+			// aapt resource value: 0x7f040013
+			public const int openCamera = 2130968595;
 			
 			static String()
 			{
@@ -264,8 +286,8 @@ namespace SearchPartyXamarinAndroid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int Mono_Android_Theme_Splash = 2131099648;
+			// aapt resource value: 0x7f050000
+			public const int Mono_Android_Theme_Splash = 2131034112;
 			
 			static Style()
 			{

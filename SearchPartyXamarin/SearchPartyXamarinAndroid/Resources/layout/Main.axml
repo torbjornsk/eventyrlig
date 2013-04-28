@@ -14,4 +14,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/mapActivity" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aksjonerButton"
+        android:text="@string/aksjonerAktivity" />
 </LinearLayout>

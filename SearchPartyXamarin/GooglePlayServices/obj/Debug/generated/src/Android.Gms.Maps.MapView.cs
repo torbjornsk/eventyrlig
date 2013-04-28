@@ -24,38 +24,21 @@ namespace Android.Gms.Maps {
 
 		protected MapView (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
-		static IntPtr id_ctor_Landroid_content_Context_;
-		[Register (".ctor", "(Landroid/content/Context;)V", "")]
-		public MapView (global::Android.Content.Context p0) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		static IntPtr id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_;
+		[Register (".ctor", "(Landroid/content/Context;Lcom/google/android/gms/maps/GoogleMapOptions;)V", "")]
+		public MapView (global::Android.Content.Context p0, global::Android.Gms.Maps.GoogleMapOptions p1) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (Handle != IntPtr.Zero)
 				return;
 
 			if (GetType () != typeof (MapView)) {
-				SetHandle (global::Android.Runtime.JNIEnv.CreateInstance (GetType (), "(Landroid/content/Context;)V", new JValue (p0)), JniHandleOwnership.TransferLocalRef);
+				SetHandle (global::Android.Runtime.JNIEnv.CreateInstance (GetType (), "(Landroid/content/Context;Lcom/google/android/gms/maps/GoogleMapOptions;)V", new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
 				return;
 			}
 
-			if (id_ctor_Landroid_content_Context_ == IntPtr.Zero)
-				id_ctor_Landroid_content_Context_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;)V");
-			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_, new JValue (p0)), JniHandleOwnership.TransferLocalRef);
-		}
-
-		static IntPtr id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_;
-		[Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")]
-		public MapView (global::Android.Content.Context p0, global::Android.Util.IAttributeSet p1) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			if (Handle != IntPtr.Zero)
-				return;
-
-			if (GetType () != typeof (MapView)) {
-				SetHandle (global::Android.Runtime.JNIEnv.CreateInstance (GetType (), "(Landroid/content/Context;Landroid/util/AttributeSet;)V", new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
-				return;
-			}
-
-			if (id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_ == IntPtr.Zero)
-				id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;Landroid/util/AttributeSet;)V");
-			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_, new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
+			if (id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_ == IntPtr.Zero)
+				id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;Lcom/google/android/gms/maps/GoogleMapOptions;)V");
+			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_, new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
 		}
 
 		static IntPtr id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_I;
@@ -75,21 +58,38 @@ namespace Android.Gms.Maps {
 			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_I, new JValue (p0), new JValue (p1), new JValue (p2)), JniHandleOwnership.TransferLocalRef);
 		}
 
-		static IntPtr id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_;
-		[Register (".ctor", "(Landroid/content/Context;Lcom/google/android/gms/maps/GoogleMapOptions;)V", "")]
-		public MapView (global::Android.Content.Context p0, global::Android.Gms.Maps.GoogleMapOptions p1) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		static IntPtr id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_;
+		[Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")]
+		public MapView (global::Android.Content.Context p0, global::Android.Util.IAttributeSet p1) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (Handle != IntPtr.Zero)
 				return;
 
 			if (GetType () != typeof (MapView)) {
-				SetHandle (global::Android.Runtime.JNIEnv.CreateInstance (GetType (), "(Landroid/content/Context;Lcom/google/android/gms/maps/GoogleMapOptions;)V", new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
+				SetHandle (global::Android.Runtime.JNIEnv.CreateInstance (GetType (), "(Landroid/content/Context;Landroid/util/AttributeSet;)V", new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
 				return;
 			}
 
-			if (id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_ == IntPtr.Zero)
-				id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;Lcom/google/android/gms/maps/GoogleMapOptions;)V");
-			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_Lcom_google_android_gms_maps_GoogleMapOptions_, new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
+			if (id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_ == IntPtr.Zero)
+				id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;Landroid/util/AttributeSet;)V");
+			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_Landroid_util_AttributeSet_, new JValue (p0), new JValue (p1)), JniHandleOwnership.TransferLocalRef);
+		}
+
+		static IntPtr id_ctor_Landroid_content_Context_;
+		[Register (".ctor", "(Landroid/content/Context;)V", "")]
+		public MapView (global::Android.Content.Context p0) : base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (Handle != IntPtr.Zero)
+				return;
+
+			if (GetType () != typeof (MapView)) {
+				SetHandle (global::Android.Runtime.JNIEnv.CreateInstance (GetType (), "(Landroid/content/Context;)V", new JValue (p0)), JniHandleOwnership.TransferLocalRef);
+				return;
+			}
+
+			if (id_ctor_Landroid_content_Context_ == IntPtr.Zero)
+				id_ctor_Landroid_content_Context_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;)V");
+			SetHandle (JNIEnv.NewObject (class_ref, id_ctor_Landroid_content_Context_, new JValue (p0)), JniHandleOwnership.TransferLocalRef);
 		}
 
 		static IntPtr id_getMap;
