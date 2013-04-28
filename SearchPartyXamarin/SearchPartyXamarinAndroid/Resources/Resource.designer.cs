@@ -26,6 +26,7 @@ namespace SearchPartyXamarinAndroid
 		
 		public static void UpdateIdValues()
 		{
+			SearchPartyXamarin.REST.Resource.String.library_name = SearchPartyXamarinAndroid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -60,6 +61,7 @@ namespace SearchPartyXamarinAndroid
 		public partial class Id
 		{
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f050000
 			public const int cameraLayout = 2131034112;
 			
@@ -83,6 +85,52 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f050006
 			public const int myMapButton = 2131034118;
+=======
+			// aapt resource value: 0x7f060006
+			public const int aksjonBeskrivelse = 2131099654;
+			
+			// aapt resource value: 0x7f06000d
+			public const int aksjonerButton = 2131099661;
+			
+			// aapt resource value: 0x7f060005
+			public const int aksjonsListe = 2131099653;
+			
+			// aapt resource value: 0x7f060007
+			public const int cameraLayout = 2131099655;
+			
+			// aapt resource value: 0x7f060004
+			public const int hybrid = 2131099652;
+			
+			// aapt resource value: 0x7f06000a
+			public const int imageView1 = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int mainLayout = 2131099659;
+			
+			// aapt resource value: 0x7f06000e
+			public const int mapWithOverlay = 2131099662;
+			
+			// aapt resource value: 0x7f060008
+			public const int myActivityButton = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int myCameraButton = 2131099657;
+			
+			// aapt resource value: 0x7f06000c
+			public const int myMapButton = 2131099660;
+			
+			// aapt resource value: 0x7f060000
+			public const int none = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int normal = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int satellite = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int terrain = 2131099651;
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
 			
 			static Id()
 			{
@@ -98,13 +146,26 @@ namespace SearchPartyXamarinAndroid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Camera = 2130903040;
+			public const int AksjonActivity = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int AksjonItemView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
+<<<<<<< HEAD
 			public const int SearchMap = 2130903042;
+=======
+			public const int Camera = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int monoandroidsplash = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SearchMap = 2130903045;
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
 			
 			static Layout()
 			{
@@ -119,6 +180,7 @@ namespace SearchPartyXamarinAndroid
 		public partial class String
 		{
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f040000
 			public const int app_name = 2130968576;
 			
@@ -136,6 +198,79 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f040002
 			public const int openCamera = 2130968578;
+=======
+			// aapt resource value: 0x7f040017
+			public const int aksjonerAktivity = 2130968599;
+			
+			// aapt resource value: 0x7f040012
+			public const int app_name = 2130968594;
+			
+			// aapt resource value: 0x7f04000f
+			public const int auth_client_availability_notification_title = 2130968591;
+			
+			// aapt resource value: 0x7f040010
+			public const int auth_client_play_services_err_notification_msg = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int auth_client_requested_by_msg = 2130968593;
+			
+			// aapt resource value: 0x7f040014
+			public const int cameraActivity = 2130968596;
+			
+			// aapt resource value: 0x7f040016
+			public const int closeActivity = 2130968598;
+			
+			// aapt resource value: 0x7f040007
+			public const int common_google_play_services_enable_button = 2130968583;
+			
+			// aapt resource value: 0x7f040006
+			public const int common_google_play_services_enable_text = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int common_google_play_services_enable_title = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int common_google_play_services_install_button = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int common_google_play_services_install_text_phone = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int common_google_play_services_install_text_tablet = 2130968579;
+			
+			// aapt resource value: 0x7f040001
+			public const int common_google_play_services_install_title = 2130968577;
+			
+			// aapt resource value: 0x7f04000a
+			public const int common_google_play_services_unknown_issue = 2130968586;
+			
+			// aapt resource value: 0x7f04000c
+			public const int common_google_play_services_unsupported_text = 2130968588;
+			
+			// aapt resource value: 0x7f04000b
+			public const int common_google_play_services_unsupported_title = 2130968587;
+			
+			// aapt resource value: 0x7f04000d
+			public const int common_google_play_services_update_button = 2130968589;
+			
+			// aapt resource value: 0x7f040009
+			public const int common_google_play_services_update_text = 2130968585;
+			
+			// aapt resource value: 0x7f040008
+			public const int common_google_play_services_update_title = 2130968584;
+			
+			// aapt resource value: 0x7f04000e
+			public const int common_signin_button_text_long = 2130968590;
+			
+			// aapt resource value: 0x7f040000
+			public const int library_name = 2130968576;
+			
+			// aapt resource value: 0x7f040015
+			public const int mapActivity = 2130968597;
+			
+			// aapt resource value: 0x7f040013
+			public const int openCamera = 2130968595;
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
 			
 			static String()
 			{
@@ -146,6 +281,97 @@ namespace SearchPartyXamarinAndroid
 			{
 			}
 		}
+<<<<<<< HEAD
+=======
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int Mono_Android_Theme_Splash = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] MapAttrs = new int[]
+			{
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981};
+			
+			// aapt resource value: 1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 0
+			public const int MapAttrs_mapType = 0;
+			
+			// aapt resource value: 6
+			public const int MapAttrs_uiCompass = 6;
+			
+			// aapt resource value: 7
+			public const int MapAttrs_uiRotateGestures = 7;
+			
+			// aapt resource value: 8
+			public const int MapAttrs_uiScrollGestures = 8;
+			
+			// aapt resource value: 9
+			public const int MapAttrs_uiTiltGestures = 9;
+			
+			// aapt resource value: 10
+			public const int MapAttrs_uiZoomControls = 10;
+			
+			// aapt resource value: 11
+			public const int MapAttrs_uiZoomGestures = 11;
+			
+			// aapt resource value: 12
+			public const int MapAttrs_useViewLifecycle = 12;
+			
+			// aapt resource value: 13
+			public const int MapAttrs_zOrderOnTop = 13;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
+			{
+			}
+		}
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
 	}
 }
 #pragma warning restore 1591

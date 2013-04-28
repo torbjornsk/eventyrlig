@@ -6,4 +6,9 @@
 	<string name="cameraActivity">Camera Activity</string>
 	<string name="mapActivity">Map Activity</string>
 	<string name="closeActivity">Close Activity</string>
+<<<<<<< HEAD
 </resources>
+=======
+	<string name="aksjonerAktivity">Aksjoner Activity</string>
+</resources>
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity

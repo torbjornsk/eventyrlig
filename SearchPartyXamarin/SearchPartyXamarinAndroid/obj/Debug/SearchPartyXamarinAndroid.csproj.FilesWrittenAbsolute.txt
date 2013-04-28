@@ -12,3 +12,49 @@
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+<<<<<<< HEAD
+=======
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/camera.xml
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/com.xamarin.docs.android.mapsandlocationdemo2.apk
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/android/bin/com.xamarin.docs.android.mapsandlocationdemo2.apk
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable/monkey.png
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable/polarbear.jpg
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-hdpi/icon.png
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-ldpi/icon.png
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-mdpi/icon.png
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-xhdpi/icon.png
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/values/strings.xml
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/main.xml
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/searchmap.xml
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/camera.xml
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/R.cs.flag
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/com.xamarin.docs.android.mapsandlocationdemo2-Signed.apk
+/Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/com.xamarin.docs.android.mapsandlocationdemo2.apk
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/android/bin/com.xamarin.docs.android.mapsandlocationdemo2.apk
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable/monkey.png
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable/polarbear.jpg
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-hdpi/icon.png
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-ldpi/icon.png
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-mdpi/icon.png
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-xhdpi/icon.png
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/values/strings.xml
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/main.xml
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/searchmap.xml
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/camera.xml
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/aksjonitemview.xml
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/R.cs.flag
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/com.xamarin.docs.android.mapsandlocationdemo2-Signed.apk
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/aksjonactivity.xml
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity

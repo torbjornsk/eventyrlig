@@ -67,6 +67,12 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"SearchPartyXamarinAndroid.dll",
+<<<<<<< HEAD
+=======
+		"GooglePlayServices.dll",
+		"SearchPartyXamarin.REST.dll",
+		"Mono.Android.Support.v4.dll",
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
 	};
 	public static final String[] Dependencies = new String[]{
 	};

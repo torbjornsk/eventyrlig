@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SearchPartyXamarinAndroid/CameraActivity.cs">
     <Files>
@@ -7,6 +8,16 @@
       <File FileName="SearchPartyXamarinAndroid/CameraActivity.cs" Line="40" Column="34" />
       <File FileName="SearchPartyXamarinAndroid/Resources/values/Strings.xml" Line="10" Column="1" />
       <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SearchPartyXamarin.REST/AksjonerService.cs">
+    <Files>
+      <File FileName="SearchPartyXamarinAndroid/AksjonerActivity.cs" Line="6" Column="19" />
+      <File FileName="SearchPartyXamarinAndroid/MainActivity.cs" Line="50" Column="27" />
+      <File FileName="SearchPartyXamarinAndroid/Resources/values/Strings.xml" Line="8" Column="51" />
+      <File FileName="SearchPartyXamarin.REST/AksjonerService.cs" Line="10" Column="4" />
+      <File FileName="SearchPartyXamarin.REST/Aksjon.cs" Line="13" Column="42" />
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

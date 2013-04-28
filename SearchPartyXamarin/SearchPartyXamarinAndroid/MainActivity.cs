@@ -30,7 +30,13 @@ namespace SearchPartyXamarinAndroid
 			};
 			
 			Button cameraButton = FindViewById<Button> (Resource.Id.myCameraButton);
+<<<<<<< HEAD
 			
+=======
+			Button mapButton = FindViewById<Button>(Resource.Id.myMapButton);
+			Button aksjonerButton = FindViewById<Button>(Resource.Id.aksjonerButton);
+
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
 			cameraButton.Click += delegate {
 				var intent = new Intent (this, typeof(CameraActivity));
 				StartActivity(intent);
@@ -40,6 +46,11 @@ namespace SearchPartyXamarinAndroid
 			
 			mapButton.Click += delegate {
 				var intent = new Intent (this, typeof(SearchMapActivity));
+				StartActivity(intent);
+			};
+
+			aksjonerButton.Click += delegate {
+				var intent = new Intent(this, typeof(AksjonerActivity));
 				StartActivity(intent);
 			};
 		}
