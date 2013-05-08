@@ -26,6 +26,9 @@
     </ul>
   <img class="bilde" id="bilde"/>
   <input class="button" type="button" id="lagreBilde" value="Lagre bilde" />
+    <table id="bilder">
+
+    </table>
 </script>
 
 <script id="rest-tpl" type="text/x-handlebars-template">
@@ -33,13 +36,15 @@
 		<a href='#' class="button header-button header-button-left">Back</a>
 		<h1>RestTest</h1>
 	</div>
-	<h2>Siste tweet fra Mesan</h2>
+	<h2>Siste 10 tweets med "Mesan"</h2>
 	<ul class="tweet-list">loading...</ul>
 </script>
 
 <script id="rest-li-tpl" type="text/x-handlebars-template">
   		{{#each tweet}}
   		<li>
+			<img src="{{this.profile_image_url}}" alt="${this.from_user}">
+			<p><b>Fra:</b> {{this.from_user}}</p>
 			<p><b>Tekst:</b> {{this.text}}</p>
 		</li>
   		{{/each}}

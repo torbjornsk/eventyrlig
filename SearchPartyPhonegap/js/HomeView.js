@@ -60,7 +60,7 @@ var HomeView = function() {
   this.hentBilder = function() {
     var bilder = app.storage.hentAlleBilder(function (bilder) {
       alert("Hentet " + bilder.rows.length + " bilder!");
-      var bildeTabell = jQuery(".bilde");
+      var bildeTabell = jQuery("#bilder");
       var tabellInnhold = "";
       for (var i = 0; i < bilder.rows.length; i++)
       {
@@ -76,7 +76,7 @@ var HomeView = function() {
         }
       }
 
-      bildeTabell.innerHTML = tabellInnhold;
+      bildeTabell.html(tabellInnhold);
     })
   }
 
