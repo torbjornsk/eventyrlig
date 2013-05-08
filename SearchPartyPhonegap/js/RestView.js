@@ -12,7 +12,6 @@ var RestView = function() {
 //	    var twurl = "http://search.twitter.com/search.json?q=from:mesan&rpp=10&callback=?";
 	    
 	    $.getJSON(twurl, function(data){
-	    	
 	    	$('.tweet-list').html(RestView.liTemplate({tweet: data}));
 	    	
 	        navigator.notification.alert(
