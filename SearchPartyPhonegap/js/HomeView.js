@@ -17,7 +17,7 @@ var HomeView = function() {
     this.el = $('<div/>');
     this.el.on('click', '#taBilde', this.taBilde);
     this.el.on('click', '#lagreBilde', this.lagreBilde)
-    this.hentBilder();
+    //this.hentBilder();
   };
 
   this.taBilde = function() {
