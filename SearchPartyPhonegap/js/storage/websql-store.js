@@ -57,7 +57,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
     }, function(error) {
       alert("Noe gikk i dass: " + error.message);
     })
-  }
+  };
 
   this.hentAlleBilder = function(callback) {
     this.db.transaction(
@@ -72,7 +72,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
           alert("Det gikk heller dårlig du.." + error.message);
         }
     )
-  }
+  };
 
   this.initializeDatabase(successCallback, errorCallback);
 
