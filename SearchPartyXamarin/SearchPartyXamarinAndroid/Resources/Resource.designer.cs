@@ -19,9 +19,9 @@ namespace SearchPartyXamarinAndroid
 	public partial class Resource
 	{
 		
-		Resource()
+		static Resource()
 		{
-			global::Android.Runtime.ResourceIdManager.UpdateIdValues ();
+			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
 		public static void UpdateIdValues()
@@ -30,6 +30,11 @@ namespace SearchPartyXamarinAndroid
 		
 		public partial class Attribute
 		{
+			
+			static Attribute()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
 			
 			private Attribute()
 			{
@@ -41,6 +46,11 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
 			
 			private Drawable()
 			{
@@ -74,6 +84,11 @@ namespace SearchPartyXamarinAndroid
 			// aapt resource value: 0x7f050006
 			public const int myMapButton = 2131034118;
 			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
 			private Id()
 			{
 			}
@@ -90,6 +105,11 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f030002
 			public const int SearchMap = 2130903042;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
 			
 			private Layout()
 			{
@@ -116,6 +136,11 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f040002
 			public const int openCamera = 2130968578;
+			
+			static String()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
 			
 			private String()
 			{

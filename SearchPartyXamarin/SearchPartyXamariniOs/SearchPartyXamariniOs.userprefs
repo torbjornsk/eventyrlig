@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SearchPartyXamariniOs/CameraViewController.cs">
+    <Files>
+      <File FileName="SearchPartyXamariniOs/CameraViewController.cs" Line="31" Column="4" />
+      <File FileName="SearchPartyXamariniOs/CameraViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="SearchPartyXamariniOs/Main.cs" Line="17" Column="1" />
+      <File FileName="SearchPartyXamariniOs/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="SearchPartyXamariniOs/SearchPartyXamariniOsViewController.cs" Line="17" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
