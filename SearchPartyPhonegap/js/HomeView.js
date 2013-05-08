@@ -62,19 +62,21 @@ var HomeView = function() {
       alert("Hentet " + bilder.rows.length + " bilder!");
       var bildeTabell = jQuery(".bilde");
       var tabellInnhold = "";
-      for (var i = 0; i < bilder.length; i++)
+      for (var i = 0; i < bilder.rows.length; i++)
       {
         if ((i % 4) == 0) {
           tabellInnhold = tabellInnhold + "<tr>";
         }
         tabellInnhold = tabellInnhold + "<td>";
-        tabellInnhold = tabellInnhold + '<img class="thumbnail" src="data:image/jpeg;base64,"' + bilder[i].bilde + ' />';
+        tabellInnhold = tabellInnhold + '<img class="thumbnail" src="data:image/jpeg;base64,"' + bilder.rows.item(i).bilde + ' />';
         tabellInnhold = tabellInnhold + "</td>";
 
         if ((i % 4) == 0) {
           tabellInnhold = tabellInnhold + "</tr>";
         }
       }
+
+      bildeTabell.innerHTML = tabellInnhold;
     })
   }
 
