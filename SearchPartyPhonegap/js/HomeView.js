@@ -17,6 +17,7 @@ var HomeView = function() {
     this.el = $('<div/>');
     this.el.on('click', '#taBilde', this.taBilde);
     this.el.on('click', '#lagreBilde', this.lagreBilde)
+    //this.hentBilder();
   };
 
   this.taBilde = function() {
@@ -55,6 +56,27 @@ var HomeView = function() {
       });
     }
   };
+
+  this.hentBilder = function() {
+    var bilder = app.storage.hentAlleBilder(function (bilder) {
+      var bildeTabell = jQuery(".bilde");
+      var tabellInnhold = "";
+      for (var i = 0; i < bilder.length; i++)
+      {
+        if ((i % 4) == 0) {
+          tabellInnhold = tabellInnhold + "<tr>";
+        }
+        tabellInnhold = tabellInnhold + "<td>";
+        tabellInnhold = tabellInnhold + '<img class="thumbnail" src="data:image/jpeg;base64,"' + bilder[i].bilde + ' />';
+        tabellInnhold = tabellInnhold + "</td>";
+
+        if ((i % 4) == 0) {
+          tabellInnhold = tabellInnhold + "</tr>";
+        }
+      }
+    })
+  }
+
 
   this.initialize();
 }
