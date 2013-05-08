@@ -64,7 +64,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
         function(tx) {
           var sql = "SELECT * FROM bilde";
 
-          tx.executeSql(sql, function(tx, results) {
+          tx.executeSql(sql, [], function(tx, results) {
             callback(results);
           })
         },
