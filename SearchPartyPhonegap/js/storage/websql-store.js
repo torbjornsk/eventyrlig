@@ -19,7 +19,6 @@ var WebSqlStore = function(successCallback, errorCallback) {
   }
 
   this.createTable = function(tx) {
-    //tx.executeSql('DROP TABLE IF EXISTS employee');
     var sql = "CREATE TABLE IF NOT EXISTS bilde ( " +
         "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "bilde IMAGE);";
@@ -53,6 +52,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
       var sql = "INSERT INTO bilde (bilde) values (:bilde)";
 
       tx.executeSql(sql, [bilde], function(tx, results) {
+        alert("Før callback!");
         callback("sucess");
       });
     }, function(error) {
