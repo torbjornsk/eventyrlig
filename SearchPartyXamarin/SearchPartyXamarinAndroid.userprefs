@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SearchPartyXamarinAndroid/SearchMapActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SearchPartyXamarin.REST/AksjonerService.cs">
     <Files>
-      <File FileName="SearchPartyXamarinAndroid/MainActivity.cs" Line="9" Column="1" />
-      <File FileName="SearchPartyXamarinAndroid/CameraActivity.cs" Line="1" Column="1" />
-      <File FileName="SearchPartyXamarinAndroid/SearchMapActivity.cs" Line="2" Column="1" />
+      <File FileName="SearchPartyXamarinAndroid/AksjonerActivity.cs" Line="6" Column="19" />
+      <File FileName="SearchPartyXamarinAndroid/MainActivity.cs" Line="50" Column="27" />
+      <File FileName="SearchPartyXamarinAndroid/Resources/values/Strings.xml" Line="8" Column="51" />
+      <File FileName="SearchPartyXamarin.REST/AksjonerService.cs" Line="10" Column="4" />
+      <File FileName="SearchPartyXamarin.REST/Aksjon.cs" Line="13" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

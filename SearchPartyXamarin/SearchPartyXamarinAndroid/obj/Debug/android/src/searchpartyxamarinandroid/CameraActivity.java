@@ -12,7 +12,7 @@ public class CameraActivity
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
 			"";
-		mono.android.Runtime.register ("SearchPartyXamarinAndroid.CameraActivity, SearchPartyXamarinAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", CameraActivity.class, __md_methods);
+		mono.android.Runtime.register ("SearchPartyXamarinAndroid.CameraActivity, SearchPartyXamarinAndroid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", CameraActivity.class, __md_methods);
 	}
 
 
@@ -20,7 +20,7 @@ public class CameraActivity
 	{
 		super ();
 		if (getClass () == CameraActivity.class)
-			mono.android.TypeManager.Activate ("SearchPartyXamarinAndroid.CameraActivity, SearchPartyXamarinAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("SearchPartyXamarinAndroid.CameraActivity, SearchPartyXamarinAndroid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

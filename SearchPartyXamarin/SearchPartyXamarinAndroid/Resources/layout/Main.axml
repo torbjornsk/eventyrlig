@@ -5,13 +5,18 @@
     android:layout_height="fill_parent"
     android:id="@+id/mainLayout">
     <Button
-        android:id="@+id/myButton"
+        android:id="@+id/myCameraButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/cameraActivity" />
     <Button
-        android:id="@+id/myActivityButton"
+        android:id="@+id/myMapButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/changeActivity" />
+        android:text="@string/mapActivity" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aksjonerButton"
+        android:text="@string/aksjonerAktivity" />
 </LinearLayout>

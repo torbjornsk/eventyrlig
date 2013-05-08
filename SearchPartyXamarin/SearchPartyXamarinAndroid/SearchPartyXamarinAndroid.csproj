@@ -15,8 +15,8 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AssemblyName>SearchPartyXamarinAndroid</AssemblyName>
-    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -44,37 +44,51 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Mono.Android.GoogleMaps" />
     <Reference Include="Mono.Android.Support.v4" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Resources\Resource.designer.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchMapActivity.cs" />
     <Compile Include="CameraActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="AksjonerActivity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <None Include="Properties\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
-    <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\drawable\Icon.png" />
-    <AndroidResource Include="Resources\layout\SearchMap.axml" />
-    <AndroidResource Include="Resources\layout\Camera.axml" />
+    <None Include="Properties\AndroidManifest.xml">
+      <DeployService-Deploy>True</DeployService-Deploy>
+    </None>
+    <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="no\" />
-    <Folder Include="no\mesan\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="google-play-services_lib\GooglePlayServices\GooglePlayServices.csproj">
-      <Project>{913BF764-405B-4537-A938-810FC19FDCD4}</Project>
+    <AndroidResource Include="Resources\drawable\monkey.png" />
+    <AndroidResource Include="Resources\drawable\polarbear.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\SearchMap.axml">
+      <DependentUpon>Camera.axml</DependentUpon>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Camera.axml" />
+    <AndroidResource Include="Resources\layout\AksjonItemView.axml" />
+    <AndroidResource Include="Resources\layout\AksjonActivity.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GooglePlayServices\GooglePlayServices.csproj">
+      <Project>{C388951C-C427-4F44-A54B-5A64BAE0DA39}</Project>
       <Name>GooglePlayServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SearchPartyXamarin.REST\SearchPartyXamarin.REST.csproj">
+      <Project>{B66275B2-A767-48F6-9888-D726DAC61C47}</Project>
+      <Name>SearchPartyXamarin.REST</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
