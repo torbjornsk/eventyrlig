@@ -195,10 +195,11 @@ li>a.tappable-active {
 }
 
 .bilde {
-
+ height: 50%;
+ width: 50%;
 }
 
 .thumbnail {
-  width: 300px;
-  height: 250px;
+  width: 10%;
+  height: 10%;
 }

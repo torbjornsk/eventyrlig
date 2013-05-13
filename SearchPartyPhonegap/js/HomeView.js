@@ -64,7 +64,7 @@ var HomeView = function() {
       var tabellInnhold = "";
       for (var i = 0; i < bilder.rows.length; i++)
       {
-        if ((i % 4) == 0) {
+        if ((i % 2) == 0) {
           tabellInnhold = tabellInnhold + "<tr>";
         }
         tabellInnhold = tabellInnhold + "<td>";
@@ -72,7 +72,7 @@ var HomeView = function() {
         tabellInnhold = tabellInnhold + imgTag;
         tabellInnhold = tabellInnhold + "</td>";
 
-        if ((i % 4) == 0) {
+        if ((i % 2) == 0) {
           tabellInnhold = tabellInnhold + "</tr>";
         }
       }
