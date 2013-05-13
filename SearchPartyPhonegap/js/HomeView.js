@@ -69,7 +69,6 @@ var HomeView = function() {
         }
         tabellInnhold = tabellInnhold + "<td>";
         var imgTag = '<img class="thumbnail" src="' + bilder.rows.item(i).bilde + '" />';
-        alert(imgTag);
         tabellInnhold = tabellInnhold + imgTag;
         tabellInnhold = tabellInnhold + "</td>";
 
