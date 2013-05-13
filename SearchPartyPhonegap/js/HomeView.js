@@ -64,11 +64,12 @@ var HomeView = function() {
       var tabellInnhold = "";
       for (var i = 0; i < bilder.rows.length; i++)
       {
+        alert(bilder.rows.item(i).id)
         if ((i % 4) == 0) {
           tabellInnhold = tabellInnhold + "<tr>";
         }
         tabellInnhold = tabellInnhold + "<td>";
-        tabellInnhold = tabellInnhold + '<img class="thumbnail" src="data:image/jpeg;base64,"' + bilder.rows.item(i).bilde + ' />';
+        tabellInnhold = tabellInnhold + '<img class="thumbnail" src="data:image/jpeg;base64,' + bilder.rows.item(i).bilde + '" />';
         tabellInnhold = tabellInnhold + "</td>";
 
         if ((i % 4) == 0) {
