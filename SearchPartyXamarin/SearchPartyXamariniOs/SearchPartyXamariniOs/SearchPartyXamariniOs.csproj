@@ -98,10 +98,20 @@
     <Compile Include="CameraViewController.designer.cs">
       <DependentUpon>CameraViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="AksjonerViewController.cs" />
+    <Compile Include="AksjonerViewController.designer.cs">
+      <DependentUpon>AksjonerViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
     <InterfaceDefinition Include="MainStoryboard_iPad.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\SearchPartyXamarain.Shared\SearchPartyXamarain.Shared.csproj">
+      <Project>{11CF2636-9262-4AE9-AD22-C02F1D1D3077}</Project>
+      <Name>SearchPartyXamarain.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
