@@ -80,9 +80,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
+    <Reference Include="System.Json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="REST\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -102,16 +104,16 @@
     <Compile Include="AksjonerViewController.designer.cs">
       <DependentUpon>AksjonerViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="..\..\REST\Aksjon.cs">
+      <Link>REST\Aksjon.cs</Link>
+    </Compile>
+    <Compile Include="..\..\REST\AksjonerService.cs">
+      <Link>REST\AksjonerService.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
     <InterfaceDefinition Include="MainStoryboard_iPad.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\SearchPartyXamarain.Shared\SearchPartyXamarain.Shared.csproj">
-      <Project>{11CF2636-9262-4AE9-AD22-C02F1D1D3077}</Project>
-      <Name>SearchPartyXamarain.Shared</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
