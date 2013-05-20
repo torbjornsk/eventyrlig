@@ -19,7 +19,6 @@ var WebSqlStore = function(successCallback, errorCallback) {
   }
 
   this.createTable = function(tx) {
-    //tx.executeSql('DROP TABLE IF EXISTS employee');
     var sql = "CREATE TABLE IF NOT EXISTS bilde ( " +
         "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "bilde IMAGE);";
@@ -53,19 +52,19 @@ var WebSqlStore = function(successCallback, errorCallback) {
       var sql = "INSERT INTO bilde (bilde) values (:bilde)";
 
       tx.executeSql(sql, [bilde], function(tx, results) {
-        callback("sucess");
+        callback("Bilde ble lagret :)");
       });
     }, function(error) {
       alert("Noe gikk i dass: " + error.message);
     })
-  }
+  };
 
   this.hentAlleBilder = function(callback) {
     this.db.transaction(
         function(tx) {
           var sql = "SELECT * FROM bilde";
 
-          tx.executeSql(sql, function(tx, results) {
+          tx.executeSql(sql, [], function(tx, results) {
             callback(results);
           })
         },
@@ -73,7 +72,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
           alert("Det gikk heller dårlig du.." + error.message);
         }
     )
-  }
+  };
 
   this.initializeDatabase(successCallback, errorCallback);
 

@@ -17,6 +17,7 @@ var HomeView = function() {
     this.el = $('<div/>');
     this.el.on('click', '#taBilde', this.taBilde);
     this.el.on('click', '#lagreBilde', this.lagreBilde)
+    this.hentBilder();
   };
 
   this.taBilde = function() {
@@ -55,6 +56,31 @@ var HomeView = function() {
       });
     }
   };
+
+  this.hentBilder = function() {
+    var bilder = app.storage.hentAlleBilder(function (bilder) {
+      alert("Hentet " + bilder.rows.length + " bilder!");
+      var bildeTabell = jQuery("#bilder");
+      var tabellInnhold = "";
+      for (var i = 0; i < bilder.rows.length; i++)
+      {
+        if ((i % 2) == 0) {
+          tabellInnhold = tabellInnhold + "<tr>";
+        }
+        tabellInnhold = tabellInnhold + "<td>";
+        var imgTag = '<img class="thumbnail" src="' + bilder.rows.item(i).bilde + '" />';
+        tabellInnhold = tabellInnhold + imgTag;
+        tabellInnhold = tabellInnhold + "</td>";
+
+        if ((i % 2) == 0) {
+          tabellInnhold = tabellInnhold + "</tr>";
+        }
+      }
+
+      bildeTabell.html(tabellInnhold);
+    })
+  }
+
 
   this.initialize();
 }
