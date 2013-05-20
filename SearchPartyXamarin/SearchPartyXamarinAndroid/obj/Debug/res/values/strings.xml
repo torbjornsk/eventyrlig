@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 <resources><string name="app_name">SearchPartyXamarinAndroid</string><string name="openCamera">Open Camera</string><string name="cameraActivity">Camera Activity</string><string name="mapActivity">Map Activity</string><string name="closeActivity">Close Activity</string><string name="aksjonerAktivity">Aksjoner Activity</string></resources>
+=======
+<<<<<<< HEAD
+<resources><string name="app_name">SearchPartyXamarinAndroid</string><string name="hello">Hello World, Click Me!</string><string name="openCamera">Open Camera</string><string name="cameraActivity">Camera Activity</string><string name="mapActivity">Map Activity</string><string name="closeActivity">Close Activity</string></resources>
+=======
+<resources><string name="app_name">SearchPartyXamarinAndroid</string><string name="openCamera">Open Camera</string><string name="cameraActivity">Camera Activity</string><string name="mapActivity">Map Activity</string><string name="closeActivity">Close Activity</string><string name="aksjonerAktivity">Aksjoner Activity</string></resources>
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera

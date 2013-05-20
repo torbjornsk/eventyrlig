@@ -2,3 +2,5 @@
 *.iml
 *.ipr
 */.idea
+*obj/
+*bin/

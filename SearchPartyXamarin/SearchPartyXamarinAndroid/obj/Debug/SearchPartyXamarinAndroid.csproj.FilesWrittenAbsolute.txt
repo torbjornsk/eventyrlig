@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll.mdb
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
@@ -10,6 +11,8 @@
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
 /Users/toreb/Projects/SearchPartyXamarinAndroid/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+=======
+>>>>>>> kamera
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll.mdb
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid.apk
@@ -17,11 +20,21 @@
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/main.xml
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/values/strings.xml
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/drawable/icon.png
+<<<<<<< HEAD
+=======
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/camera.xml
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/searchmap.xml
+>>>>>>> kamera
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/R.cs.flag
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.SearchPartyXamarinAndroid-Signed.apk
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/uploadflags.txt
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> kamera
 /Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/camera.xml
 /Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
 /Users/janeirik/Documents/Miniprosjekt/cross_platform_xamarin_android/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
@@ -65,3 +78,7 @@
 /Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll
 /Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/SearchPartyXamarinAndroid.dll.mdb
 /Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/obj/Debug/res/layout/aksjonactivity.xml
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera

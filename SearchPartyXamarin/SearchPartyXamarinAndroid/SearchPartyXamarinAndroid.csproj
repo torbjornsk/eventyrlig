@@ -17,6 +17,7 @@
     <AssemblyName>SearchPartyXamarinAndroid</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <newfilesearch>OnLoad</newfilesearch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -51,14 +52,31 @@
     <Compile Include="SearchMapActivity.cs" />
     <Compile Include="CameraActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
+<<<<<<< HEAD
     <Compile Include="AksjonerActivity.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CameraActivity.cs" />
+    <Compile Include="SearchMapActivity.cs" />
+=======
+    <Compile Include="AksjonerActivity.cs" />
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AboutAssets.txt" />
+<<<<<<< HEAD
     <None Include="Properties\AndroidManifest.xml">
       <DeployService-Deploy>True</DeployService-Deploy>
     </None>
     <None Include="Resources\AboutResources.txt" />
+=======
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="google-play-services_lib\google-play-services_lib.iml">
+      <Visible>False</Visible>
+    </None>
+>>>>>>> kamera
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -73,6 +91,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\values\Strings.xml" />
+<<<<<<< HEAD
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\layout\SearchMap.axml">
       <DependentUpon>Camera.axml</DependentUpon>
@@ -81,6 +100,19 @@
     <AndroidResource Include="Resources\layout\AksjonItemView.axml" />
     <AndroidResource Include="Resources\layout\AksjonActivity.axml" />
   </ItemGroup>
+=======
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\Camera.axml" />
+<<<<<<< HEAD
+    <AndroidResource Include="Resources\layout\SearchMap.axml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+</Project>
+=======
+    <AndroidResource Include="Resources\layout\AksjonItemView.axml" />
+    <AndroidResource Include="Resources\layout\AksjonActivity.axml" />
+  </ItemGroup>
+>>>>>>> kamera
   <ItemGroup>
     <ProjectReference Include="..\GooglePlayServices\GooglePlayServices.csproj">
       <Project>{C388951C-C427-4F44-A54B-5A64BAE0DA39}</Project>
@@ -92,3 +124,7 @@
     </ProjectReference>
   </ItemGroup>
 </Project>
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera
