@@ -38,6 +38,7 @@ var app = {
     //routes
     this.cameraUrl = /^#camera/;
     this.restUrl = /^#rest/;
+    this.eventyrUrl = /^#eventyr/;
 
     this.mainTpl = Handlebars.compile($("#index-tpl").html());
     this.storage = new WebSqlStore();
@@ -55,9 +56,11 @@ var app = {
 
 	    if (hash.match(app.restUrl)) {
 	    	$('body').html(new RestView().render().el);
-	    } else {
+	    } else if (hash.match(app.cameraUrl)) {
 	    	$('body').html(new HomeView().render().el);
-	    }
+	    } else if (hash.match(app.eventyrUrl)) {
+        $('body').html(new EventyrView().render().el);
+    }
 	}
 
 };
