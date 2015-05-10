@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+=======
+using System;
+>>>>>>> kamera
 
 using Android.App;
 using Android.Content;

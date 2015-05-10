@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPartyXamariniOs", "SearchPartyXamariniOs\SearchPartyXamariniOs.csproj", "{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Debug|iPhone.Build.0 = Debug|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Release|iPhone.ActiveCfg = Release|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Release|iPhone.Build.0 = Release|iPhone
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{EFF41EC5-F8EC-4A1A-A6AB-C023E13A45B2}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SearchPartyXamariniOs\SearchPartyXamariniOs.csproj
+	EndGlobalSection
+EndGlobal

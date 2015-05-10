@@ -1,16 +1,28 @@
 using System;
 
 using Android.App;
+<<<<<<< HEAD
 using Android.Content.PM;
 using Android.Gms.Maps;
 using Android.Gms.Maps.Model;
 using Android.OS;
 using Android.Support.V4.App;
 using Android.Widget;
+=======
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.Provider;
+//using Android.GoogleMaps;
+//using Android.Support.V4.App;
+>>>>>>> kamera
 
 namespace SearchPartyXamarinAndroid
 {
 	[Activity (Label = "SearchMapActivity")]			
+<<<<<<< HEAD
 	public class SearchMapActivity : FragmentActivity
 	{
 		private static readonly LatLng InMaui = new LatLng(20.72110, -156.44776);
@@ -154,5 +166,20 @@ namespace SearchPartyXamarinAndroid
 				_polarBearOverlay.Position = InMaui;
 			}
 		}
+=======
+	public class SearchMapActivity : /*Map*/Activity
+	{
+		protected override void OnCreate (Bundle bundle)
+		{
+			base.OnCreate (bundle);
+			//SetContentView (Resource.Layout.SearchMap);                     
+		}
+		/*
+		protected override bool IsRouteDisplayed {
+			get {
+				return false;              }
+		}
+		*/
+>>>>>>> kamera
 	}
 }

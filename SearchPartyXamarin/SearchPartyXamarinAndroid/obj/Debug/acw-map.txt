@@ -1,6 +1,13 @@
 SearchPartyXamarinAndroid.MainActivity;searchpartyxamarinandroid.MainActivity
+<<<<<<< HEAD
 SearchPartyXamarinAndroid.SearchMapActivity;searchpartyxamarinandroid.SearchMapActivity
 SearchPartyXamarinAndroid.CameraActivity;searchpartyxamarinandroid.CameraActivity
+=======
+SearchPartyXamarinAndroid.CameraActivity;searchpartyxamarinandroid.CameraActivity
+<<<<<<< HEAD
+SearchPartyXamarinAndroid.SearchMapActivity;searchpartyxamarinandroid.SearchMapActivity
+=======
+>>>>>>> kamera
 SearchPartyXamarinAndroid.AksjonerActivity;searchpartyxamarinandroid.AksjonerActivity
 Android.Gms.Maps.GoogleMap.IOnCameraChangeListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
 Android.Gms.Maps.GoogleMap.IOnInfoWindowClickListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnInfoWindowClickListenerImplementor
@@ -13,3 +20,7 @@ Android.Gms.Maps.ILocationSourceOnLocationChangedListenerImplementor;mono.com.go
 Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera

@@ -32,6 +32,7 @@ namespace SearchPartyXamarinAndroid
 		public partial class Attribute
 		{
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f010001
 			public const int cameraBearing = 2130771969;
 			
@@ -74,6 +75,8 @@ namespace SearchPartyXamarinAndroid
 			// aapt resource value: 0x7f01000d
 			public const int zOrderOnTop = 2130771981;
 			
+=======
+>>>>>>> kamera
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -104,6 +107,11 @@ namespace SearchPartyXamarinAndroid
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
 			private Drawable()
 			{
 			}
@@ -112,6 +120,7 @@ namespace SearchPartyXamarinAndroid
 		public partial class Id
 		{
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f060006
 			public const int aksjonBeskrivelse = 2131099654;
 			
@@ -127,6 +136,48 @@ namespace SearchPartyXamarinAndroid
 			// aapt resource value: 0x7f060004
 			public const int hybrid = 2131099652;
 			
+=======
+<<<<<<< HEAD
+			// aapt resource value: 0x7f050000
+			public const int cameraLayout = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int imageView1 = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int mainLayout = 2131034116;
+			
+			// aapt resource value: 0x7f050007
+			public const int map = 2131034119;
+			
+			// aapt resource value: 0x7f050001
+			public const int myActivityButton = 2131034113;
+			
+			// aapt resource value: 0x7f050005
+			public const int myButton = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int myCameraButton = 2131034114;
+			
+			// aapt resource value: 0x7f050006
+			public const int myMapButton = 2131034118;
+=======
+			// aapt resource value: 0x7f060006
+			public const int aksjonBeskrivelse = 2131099654;
+			
+			// aapt resource value: 0x7f06000d
+			public const int aksjonerButton = 2131099661;
+			
+			// aapt resource value: 0x7f060005
+			public const int aksjonsListe = 2131099653;
+			
+			// aapt resource value: 0x7f060007
+			public const int cameraLayout = 2131099655;
+			
+			// aapt resource value: 0x7f060004
+			public const int hybrid = 2131099652;
+			
+>>>>>>> kamera
 			// aapt resource value: 0x7f06000a
 			public const int imageView1 = 2131099658;
 			
@@ -156,6 +207,10 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f060003
 			public const int terrain = 2131099651;
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera
 			
 			static Id()
 			{
@@ -177,6 +232,12 @@ namespace SearchPartyXamarinAndroid
 			public const int AksjonItemView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+			public const int SearchMap = 2130903042;
+=======
+>>>>>>> kamera
 			public const int Camera = 2130903042;
 			
 			// aapt resource value: 0x7f030003
@@ -187,6 +248,10 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f030005
 			public const int SearchMap = 2130903045;
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera
 			
 			static Layout()
 			{
@@ -201,6 +266,7 @@ namespace SearchPartyXamarinAndroid
 		public partial class String
 		{
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f040017
 			public const int aksjonerAktivity = 2130968599;
 			
@@ -241,6 +307,67 @@ namespace SearchPartyXamarinAndroid
 			public const int common_google_play_services_install_text_tablet = 2130968579;
 			
 			// aapt resource value: 0x7f040001
+=======
+<<<<<<< HEAD
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int cameraActivity = 2130968579;
+			
+			// aapt resource value: 0x7f040005
+			public const int closeActivity = 2130968581;
+			
+			// aapt resource value: 0x7f040001
+			public const int hello = 2130968577;
+			
+			// aapt resource value: 0x7f040004
+			public const int mapActivity = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int openCamera = 2130968578;
+=======
+			// aapt resource value: 0x7f040017
+			public const int aksjonerAktivity = 2130968599;
+			
+			// aapt resource value: 0x7f040012
+			public const int app_name = 2130968594;
+			
+			// aapt resource value: 0x7f04000f
+			public const int auth_client_availability_notification_title = 2130968591;
+			
+			// aapt resource value: 0x7f040010
+			public const int auth_client_play_services_err_notification_msg = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int auth_client_requested_by_msg = 2130968593;
+			
+			// aapt resource value: 0x7f040014
+			public const int cameraActivity = 2130968596;
+			
+			// aapt resource value: 0x7f040016
+			public const int closeActivity = 2130968598;
+			
+			// aapt resource value: 0x7f040007
+			public const int common_google_play_services_enable_button = 2130968583;
+			
+			// aapt resource value: 0x7f040006
+			public const int common_google_play_services_enable_text = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int common_google_play_services_enable_title = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int common_google_play_services_install_button = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int common_google_play_services_install_text_phone = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int common_google_play_services_install_text_tablet = 2130968579;
+			
+			// aapt resource value: 0x7f040001
+>>>>>>> kamera
 			public const int common_google_play_services_install_title = 2130968577;
 			
 			// aapt resource value: 0x7f04000a
@@ -272,6 +399,10 @@ namespace SearchPartyXamarinAndroid
 			
 			// aapt resource value: 0x7f040013
 			public const int openCamera = 2130968595;
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera
 			
 			static String()
 			{
@@ -282,6 +413,11 @@ namespace SearchPartyXamarinAndroid
 			{
 			}
 		}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> kamera
 		
 		public partial class Style
 		{
@@ -370,6 +506,10 @@ namespace SearchPartyXamarinAndroid
 			{
 			}
 		}
+<<<<<<< HEAD
+=======
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera
 	}
 }
 #pragma warning restore 1591

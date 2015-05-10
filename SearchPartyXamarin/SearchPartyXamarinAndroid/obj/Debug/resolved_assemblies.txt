@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 /Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
 /Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/GooglePlayServices.dll
 /Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarin.REST.dll
+=======
+<<<<<<< HEAD
+/Users/olavh/kunder/mesan/miniprosjekt/Miniprosjekt - Cross platform rammeverk for mobil/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+=======
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarinAndroid.dll
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/GooglePlayServices.dll
+/Users/toreb/Projects/miniprosjekt-mobil-cross-platform/SearchPartyXamarin/SearchPartyXamarinAndroid/bin/Debug/SearchPartyXamarin.REST.dll
+>>>>>>> 158eb81... lagt til rest-kall som henter aksjoner fra searchparty og viser dem i en liste i en egen aktivity
+>>>>>>> kamera

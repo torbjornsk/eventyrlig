@@ -8,6 +8,14 @@
         android:id="@+id/myCameraButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+        android:text="@string/hello" />
+    <Button
+        android:id="@+id/myCameraButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+>>>>>>> kamera
         android:text="@string/cameraActivity" />
     <Button
         android:id="@+id/myMapButton"
